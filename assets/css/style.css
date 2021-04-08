@@ -1,0 +1,494 @@
+/*==========================
+========= Common CSS ===========
+============================*/
+body {
+    margin: 0 auto;
+    padding: 0%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*==========================
+========= Header ===========
+============================*/
+
+.container {
+    height: auto;
+    width: auto;
+    padding: 0%;
+    margin: 0 auto;
+}
+
+.header_part img {
+    height: 40px;
+    width: auto;
+}
+
+.header-title {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.social i {
+    font-size: 1rem;
+    color:black;
+    background-color: #cdd3d3;
+    border: 1px #313030;
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px #6e7070;
+    transition: all 0.3 linear;
+}
+
+.social i:hover {
+    color: rgb(31, 16, 235);
+    transform: scale(1.5);
+    background-color:rgb(226, 168, 60);
+    transition: 3s;
+}
+
+
+.header img {
+    height: 200px;
+    width: 100%;
+}
+
+
+/*=======================
+========Carousel===============
+==========================*/
+
+#carousel_1 .carousel-inner img {
+    height: 300px;
+    width: 100%;
+}
+
+#carousel_1 .carousel-control-prev,
+#carousel_1 .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(40, 37, 247);
+    border-radius: 50%;
+    top: calc(50% - 25px);
+    opacity: .9;
+}
+
+#carousel_1 .carousel-control-prev {
+    left: 5%;
+}
+
+#carousel_1 .carousel-control-next {
+    right: 5%;
+}
+
+
+
+/*===============================
+ ================Body=============
+ ===============================*/
+
+.news {
+    background-color: #0C1684;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 1px;
+}
+
+.event ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.event li::before {
+    content: "\2022";
+    color: #9E660E;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+/*====================================
+ ==================-----------
+ ----------------Notice Board---------
+ ====================================
+ ==================================*/
+
+ .download-position{
+    top: 0; 
+    right: -2%;
+ }
+.notice_board ul {
+    list-style: none;
+    font-size: 18px;
+    color: blue;
+}
+
+.notice_board li::before {
+    content: "\1F782";
+    color: #9E660E;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.notice_board a {
+    color: purple;
+    font-size: 16px;
+}
+.container .trainng_image img {
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+/*=======================
+======== BOD & Directors===============
+==========================*/
+
+.container .bod p {
+    text-indent: 40px;
+    color: white;
+    background-color: #0C1684;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.container .advisor p {
+    text-align: center;
+    color: white;
+    background-color: #9E660E;
+    font-size: 25px;
+    padding: 4px;
+}
+
+#carousel_2 .carousel-inner img {
+    height: 138px;
+    width: 137px;
+}
+
+#carousel_2 .carousel-control-prev,
+#carousel_2 .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #979284;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+    opacity: .9;
+}
+
+#carousel_2 .carousel-control-prev {
+    left: 5%;
+}
+
+#carousel_2 .carousel-control-next {
+    right: 5%;
+}
+
+/*=======================
+======== Events===============
+==========================*/
+
+
+.container .event p {
+    color: white;
+    text-align: center;
+    background-color: #0C1684;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.event_card img {
+    width: 100%;
+    height: auto;
+}
+
+.event_card a {
+    font-weight: bold;
+}
+
+.card i {
+    padding-left: 20px;
+}
+
+.card .card-title {
+    color: #F4AA13;
+}
+
+.card .card-link {
+    color: black;
+}
+
+/*=======================
+======== Our Patners===============
+==========================*/
+
+.container .patners p {
+    color: white;
+    text-align: center;
+    background-color: #0C1684;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.container-fluid .our_patners {
+    background-color: white;
+}
+
+#carousel_3 .carousel-inner img {
+    height: 160px;
+    width: 260px;
+    display: inline;
+}
+
+#carousel_3 .carousel-control-prev,
+#carousel_3 .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #6eee75ee;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+    opacity: .1;
+}
+
+#carousel_3 .carousel-control-prev {
+    left: 5%;
+}
+
+#carousel_3 .carousel-control-next {
+    right: 5%;
+}
+
+
+/*==========================================
+===================  Gallery  ===============
+============================================*/
+
+.container .gallery p {
+    color: white;
+    text-align: center;
+    background-color: #F4AA13;
+    font-size: 25px;
+    padding: 4px;
+}
+
+/*==========================================
+===================  Reach Us  ===============
+============================================*/
+
+.container .reach_us p {
+    color: white;
+    text-align: center;
+    background-color: #F4AA13;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.mapouter {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+    border-style: ridge;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 270px;
+    width: 100%;
+}
+
+/*==========================================
+===================  Footer  ===============
+============================================*/
+
+.footer_part {
+    background-color: #dddada;
+    color: black;
+}
+
+.footer_part p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social_site i {
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 1px #313030;
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px #6e7070;
+    transition: all 0.3 linear;
+}
+
+.social_site i:hover {
+    color: rgb(31, 16, 235);
+    transform: scale(1.5);
+    background-color: rgb(124, 87, 87);
+    transition: 5s;
+}
+
+.footer {
+    background-image: url('../img/footer/foot.png');
+}
+
+.footer p {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 70px;
+}
+
+.footer img {
+    margin-top: 16px;
+}
+
+.footer .orange img {
+    margin-top: 60px;
+    height: 25px;
+    width: auto;
+}
+
+/*==========================================
+===================  Media Query  ===============
+============================================*/
+
+@media screen and (max-width: 768px) {
+    .header-title {
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .navbar .navbar-toggler{
+        border:none;
+        width:1em;
+        float: left;
+    }
+
+}
+@media screen and (max-width: 768px){
+    #carousel_1 .carousel-inner img {
+        height: 200px;
+        width: 100%;
+    }
+    #carousel_1 .carousel-control-prev,
+    #carousel_1 .carousel-control-next {
+        width: 30px;
+        height: 30px;
+        background-color: #6687f1;
+        border-radius: 50%;
+        top: calc(50% - 25px);
+        opacity: .9;
+    }
+    
+    #carousel_1 .carousel-control-prev {
+        left: 5%;
+    }
+    
+    #carousel_1 .carousel-control-next {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .event{
+        padding-top: 5px;
+    }
+    .event li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .notice_board ul{
+        font-size: 14px;
+    }
+    .notice_board a {
+        color: purple;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container .bod p {
+        text-indent: 40px;
+        color: white;
+        background-color: #0C1684;
+        font-size: 16px;
+        padding: 4px;
+    }
+    .container .advisor p {
+        text-align: center;
+        color: white;
+        background-color: #9E660E;
+        font-size: 10px;
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .container .patners p {
+        color: white;
+        text-align: center;
+        background-color: #0C1684;
+        font-size: 25px;
+        padding: 4px;
+    }
+    
+    .container-fluid .our_patners {
+        background-color: white;
+    }
+    
+    #carousel_3 .carousel-inner img {
+        height: 160px;
+        width: 260px;
+    }
+    #carousel_3 .carousel-item img{
+        float: none;
+    }
+    #carousel_3 .carousel-control-prev,
+    #carousel_3 .carousel-control-next {
+        width: 50px;
+        height: 50px;
+        background-color: #6eee75ee;
+        border-radius: 50%;
+        top: calc(50% - 25px);
+        opacity: .1;
+    }
+}
+
